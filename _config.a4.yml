@@ -1,0 +1,22 @@
+menu:
+  首页: /  #需要hexo new page index,在index/index.md填写的内容将会展现在首页上
+  文章: /list/ # 需要hexo new page list
+  # 添加其他页面格式举例：
+  # 作品: /project/ # 需要hexo new page project
+  关于: /about/ # 需要hexo new page about
+  标签: /tags/ #需要hexo new page tags
+  分类: /categories/ # 需要hexo new page categories
+  相册: /masonry/ # 需要hexo new page masonry
+footerLink: # 底部的链接自定义
+  info: © 2023-2024 # info这个单词不能修改，不想使用可为空
+  # 添加链接格式举例
+  联系我: /contact/
+  # 友链: /friends/
+  # 支持: /support/
+  
+index:  # 首页的页眉页脚
+  header: ''
+  footer: 永远相信美好的事情即将发生 # 除了可以填写任何文字外，可以自动邮箱链接化，但需按照这个格式填写：Email:xxx@gmail.com
+
+post: #除首页之外页面的页脚 
+  footer: 永远相信美好的事情即将发生
